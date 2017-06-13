@@ -196,6 +196,63 @@ angular.module('portfolioApp')
         name: 'View Site',
         link: 'https://www.atlaswearables.com/'
             }]
+        },{
+      title: 'Press Web Apps',
+      roles: ['first dev hire', 'reactjs conversion'],
+      description: 'As the first dev hire at Press, an Austin based startup, I established the front end development and deployment environment and converted the jquery based prototype to a robust, error-free react app. I also created a front end React template for future projects that contained components that would be used in every Press app, navigation, etc. I also got their, soon to be launched, React Provider app off the ground.',
+      techs: [{
+          icon: 'ion-social-javascript-outline',
+          name: 'Javascript',
+          link: 'https://www.javascript.com/'
+            }, {
+          icon: 'ion-rainy',
+          name: 'AngularJS',
+          link: 'https://angularjs.org/'
+            }, {
+          icon: 'ion-social-sass',
+          name: 'Sass',
+          link: 'http://sass-lang.com/'
+            }, {
+          icon: 'ion-social-html5-outline',
+          name: 'Html5',
+          link: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5'
+            }, {
+          icon: 'ion-ios-pie-outline',
+          name: 'eCharts 3',
+          link: 'http://echarts.baidu.com/'
+            },
+        {
+          icon: 'ion-social-css3-outline',
+          name: 'Css3',
+          link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3'
+            }],
+      show: false,
+      web_path: 'images/press-web.png',
+      mobile_path: 'images/press-mobile.png',
+      video_path: 'videos/atlas-dash.mp4',
+      poster: 'images/atlas-dash.png',
+      link: 'https://dashboard.atlaswearables.com/#/',
+      buttons: [{
+        name: 'View Site',
+        link: 'https://www.presscleaners.com/'
+            }]
+        },{
+      title: 'Press Mobile UI/UX',
+      roles: ['ui design', 'user flows', 'user experience design'],
+      description: 'This was the first project I did for Press. After multiple meetings with the CTO and other members of the Press team, we reimagined the Press mobile app. I then materialized this concept in the form of high fidelity mockups and user flows in Sketch.',
+      techs: [{
+          icon: 'fa fa-diamond',
+          name: 'Sketch',
+          link: 'https://www.sketchapp.com/'
+            }],
+      show: false,
+      web_path: 'images/press-ux.png',
+      mobile_path: '',
+  
+      buttons: [{
+        name: 'Preview',
+        link: 'https://dashboard.atlaswearables.com/#/'
+            }]
         }, {
       title: 'gotchosen social exchange',
       roles: ['senior front end dev'],
