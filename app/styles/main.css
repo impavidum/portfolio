@@ -1,4 +1,10 @@
 /* -------------------- Mixins -------------------- */
+.ion-redux:before {
+  content: url("../images/redux.svg") !important; }
+
+.ion-react:before {
+  content: url("../images/react.svg") !important; }
+
 body {
   font-family: 'Raleway';
   font-weight: 100 !important;
@@ -265,7 +271,7 @@ nav {
 
 .card {
   background: white;
-  border-top: 1px solid transparent;
+  border-top: 1px solid rgba(0, 0, 0, 0);
   height: 21em;
   width: 100%;
   position: relative;
@@ -346,7 +352,7 @@ nav {
 
 .thanks {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 100vh; }
   .thanks img {
     margin-bottom: 1.5em; }

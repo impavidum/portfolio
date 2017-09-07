@@ -4,6 +4,35 @@ $ltgrey: #8c8e8f;
 $mdgrey: #494949;
 $dkgrey: #101010;
 $card-height: 21em;
+
+.ion-redux:before {
+  content: url('../images/redux.svg') !important; 
+  // display: inline-block;
+  // font-family: "Ionicons";
+  // speak: none;
+  // font-style: normal;
+  // font-weight: normal;
+  // font-variant: normal;
+  // text-transform: none;
+  // text-rendering: auto;
+  // line-height: 1;
+  // -webkit-font-smoothing: antialiased;
+}
+
+.ion-react:before {
+  content: url('../images/react.svg') !important; 
+  // display: inline-block;
+  // font-family: "Ionicons";
+  // speak: none;
+  // font-style: normal;
+  // font-weight: normal;
+  // font-variant: normal;
+  // text-transform: none;
+  // text-rendering: auto;
+  // line-height: 1;
+  // -webkit-font-smoothing: antialiased;
+}
+
 body {
   font-family: 'Raleway';
   font-weight: 100 !important;
@@ -352,7 +381,7 @@ nav {
 }
 .thanks {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   img {
     margin-bottom: 1.5em;
